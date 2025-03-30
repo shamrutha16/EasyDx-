@@ -73,6 +73,7 @@ The Symptom Checker Chatbot relies on the following dependencies:
 - NLTK
 - geocoder
 
+
 You can install these dependencies using the provided `requirements.txt` file.
 
 
