@@ -10,112 +10,127 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f4f7fc;
+    }
+
     .team-boxed {
-  color:#313437;
-  background-color:#eef4f7;
-}
+        color: #313437;
+        background-color: #f4f7fc;
+        padding: 80px 0;
+    }
 
-.team-boxed p {
-  color:#7d8285;
-}
+    .team-boxed h2 {
+        font-weight: bold;
+        margin-bottom: 40px;
+        color: #222;
+        text-align: center;
+        font-size: 36px;
+    }
 
-.team-boxed h2 {
-  font-weight:bold;
-  margin-bottom:40px;
-  padding-top:40px;
-  color:inherit;
-}
+    .team-boxed .intro {
+        font-size: 18px;
+        max-width: 650px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+        color: #555;
+    }
 
-@media (max-width:767px) {
-  .team-boxed h2 {
-    margin-bottom:25px;
-    padding-top:25px;
-    font-size:24px;
-  }
-}
+    .team-boxed .people {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
 
-.team-boxed .intro {
-  font-size:16px;
-  max-width:500px;
-  margin:0 auto;
-}
+    .team-boxed .item {
+        text-align: center;
+        padding: 20px;
+        flex: 1 1 300px;
+        max-width: 350px;
+        transition: transform 0.3s ease-in-out;
+    }
 
-.team-boxed .intro p {
-  margin-bottom:0;
-}
+    .team-boxed .item:hover {
+        transform: translateY(-10px);
+    }
 
-.team-boxed .people {
-  padding:50px 0;
-}
+    .team-boxed .item .box {
+        background: linear-gradient(145deg, #ffffff, #e6e9ef);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 15px #c5c7cb, -5px -5px 15px #ffffff;
+        transition: box-shadow 0.3s ease-in-out;
+    }
 
-.team-boxed .item {
-  text-align:center;
-}
+    .team-boxed .item:hover .box {
+        box-shadow: 8px 8px 20px #b3b5b9, -8px -8px 20px #ffffff;
+    }
 
-.team-boxed .item .box {
-  text-align:center;
-  padding:30px;
-  background-color:#fff;
-  margin-bottom:30px;
-}
+    .team-boxed .item img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
 
-.team-boxed .item .name {
-  font-weight:bold;
-  margin-top:28px;
-  margin-bottom:8px;
-  color:inherit;
-}
+    .team-boxed .name {
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 22px;
+        color: #222;
+    }
 
-.team-boxed .item .title {
-  text-transform:uppercase;
-  font-weight:bold;
-  color:#d0d0d0;
-  letter-spacing:2px;
-  font-size:13px;
-}
+    .team-boxed .title {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #777;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
 
-.team-boxed .item .description {
-  font-size:15px;
-  margin-top:15px;
-  margin-bottom:20px;
-}
+    .team-boxed .description {
+        font-size: 15px;
+        margin-top: 10px;
+        color: #666;
+    }
 
-.team-boxed .item img {
-  max-width:160px;
-}
+    .team-boxed .social a {
+        color: #555;
+        margin: 0 8px;
+        display: inline-block;
+        font-size: 20px;
+        transition: color 0.3s, transform 0.3s;
+    }
 
-.team-boxed .social {
-  font-size:18px;
-  color:#a2a8ae;
-}
-
-.team-boxed .social a {
-  color:inherit;
-  margin:0 10px;
-  display:inline-block;
-  opacity:0.7;
-}
-
-.team-boxed .social a:hover {
-  opacity:1;
-}
+    .team-boxed .social a:hover {
+        color: #007bff;
+        transform: scale(1.1);
+    }
 </style>
 
 <body>
     <div class="team-boxed">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">About Us</h2>
-                <p class="text-center"></p>
+                <h2>Meet Our Team</h2>
+                <p>We are a passionate team dedicated to innovation and technology.</p>
             </div>
             <div class="row people">
                 <div class="col-md-6 col-xl-auto item">
                     <div class="box">
-                        <img class="rounded-circle" src="{{ url_for('static', filename='images/shamrutha.jpg') }}" alt="Profile Photo">
+                        <img class="rounded-circle" src="{{ url_for('static', filename='images/shamrutha.jpg') }}" alt="Shamrutha Sadanandam">
                         <h3 class="name">Shamrutha Sadanandam</h3>
-                        <p class="title"></p>
-                        <p class="description"></p>
-                        <div class="social"><a href="#"><i class="fa fa-linkedin-square"></i></a></div>
+                        <p class="title">Team Leader</p>
+                        <p class="description">A dedicated AI/ML enthusiast, passionate about problem-solving and innovation.</p>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                            <a href="#"><i class="fa fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
