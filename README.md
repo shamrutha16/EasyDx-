@@ -1,7 +1,7 @@
 
 # EasyDX 
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 
 A simple chatbot that can help users check their symptoms and provide relevant information. This chatbot uses natural language processing (NLP) techniques and a recurrent neural network (RNN) model to understand user queries and respond accordingly.
 
@@ -12,9 +12,7 @@ A simple chatbot that can help users check their symptoms and provide relevant i
 - [Usage](#usage)
 - [Training](#training)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#Contact)
+
 
 ## Introduction
 
