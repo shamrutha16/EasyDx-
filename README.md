@@ -1,5 +1,5 @@
 
-# Symptom Checker Chatbot ai 
+# EasyDX 
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -18,11 +18,11 @@ A simple chatbot that can help users check their symptoms and provide relevant i
 
 ## Introduction
 
-This repository contains code for a symptom checker chatbot. The chatbot can engage in conversations with users, gather information about their symptoms, and provide information about potential conditions or nearby medical centers. It uses a pre-trained RNN model for natural language understanding.
+This repository contains code for a EasyDx (symptom checker chatbot). The chatbot can engage in conversations with users, gather information about their symptoms, and provide information about potential conditions or nearby medical centers. It uses a pre-trained RNN model for natural language understanding.
 
 ## Getting Started
 
-To get started with the Symptom Checker Chatbot, follow these steps:
+To get started with the EasyDx, follow these steps:
 
 1. Clone the repository to your local machine:
 
@@ -43,13 +43,13 @@ To get started with the Symptom Checker Chatbot, follow these steps:
 
 ## Usage
 
-To use the Symptom Checker Chatbot, run the `app.py` file:
+To use the EasyDx , run the `app.py` file:
 
 ```
 python app.py
 ```
 
-This will start a Flask web application that you can interact with. Visit the URL `http://localhost:5000` in your web browser to access the chat interface.
+This will start a Flask web application that you can interact with. 
 
 ## Training
 
@@ -77,17 +77,7 @@ The Symptom Checker Chatbot relies on the following dependencies:
 
 You can install these dependencies using the provided `requirements.txt` file.
 
-## Contributing
 
-If you'd like to contribute to this project, feel free to fork the repository and submit pull requests. Contributions are welcome, whether it's bug fixes, feature enhancements, or documentation improvements.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or collaboration opportunities, feel free to contact us at monishkumarpecai@gmail.com.
 
 ---
 
