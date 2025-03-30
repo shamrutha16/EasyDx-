@@ -24,15 +24,11 @@ To get started with the EasyDx, follow these steps:
 
 1. Clone the repository to your local machine:
 
-   ```
-   git clone https://github.com/your-username/symptom-checker-chatbot.git
-   ```
+  
 
 2. Install the required dependencies:
 
-   ```
-   pip install -r requirements.txt
-   ```
+
 
 3. Download the necessary data files and place them in the appropriate directories:
    - `intents.json`: Contains predefined intents for the chatbot.
